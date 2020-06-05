@@ -28,7 +28,7 @@ $formatoBoolean = '%18s    to BOOLEAN    :    %s'."\n";
 foreach ($values as $value) {
   echo sprintf($formatoBoolean,toString($value),toString((bool)$value));
 }
-echo "\n--------------------------------------------------------------------------------\n\n";
+echo "\n-------------------------------------------------------------\n\n";
 
 foreach ($values as $value) {
   foreach ($values as $value2) {
@@ -36,7 +36,7 @@ foreach ($values as $value) {
   }
   echo "\n";
 }
-echo "\n--------------------------------------------------------------------------------\n\n";
+echo "\n-------------------------------------------------------------\n\n";
 
 foreach ($values as $value) {
   foreach ($values as $value2) {
