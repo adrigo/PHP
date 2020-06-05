@@ -1,5 +1,8 @@
 <?php 
-//ARCHIVO QUE MUESTRA LAS DIFERENCIAS DE LAS COMPARATIVAS EN PHP
+/*First shows what it returns when you transform to bool all the values types.
+ *Shows all posible comparasions of array values and what it returns with == and ===
+ *@author Adrián Gómez <adrian.gd@live.com>
+ */
 $values = array(
   NAN,
   0,
